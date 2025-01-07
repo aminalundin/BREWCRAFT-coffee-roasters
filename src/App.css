@@ -68,10 +68,10 @@ aside {
   margin-right: 20px;
 }
 
-p {
+/* p {
   padding-left: 1rem;
   padding-right: 1rem;
-}
+} */
 
 .shop-button {
   color: white;
@@ -88,34 +88,53 @@ p {
 
 
 .footer-container {
+  font-family: "Roboto Light";
+  font-size: 12pt;
   width: 100%;
   height: 400px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 1px solid blue;
+  background-color: black;
+  color: white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  overflow: hidden;
 }
 
 .get-in-touch {
   width: 20%;
   height: 200px;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .socials {
   width: 20%;
   height: 200px;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .resources {
   width: 20%;
   height: 200px;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 .subscribe {
-  width: 40%;
+  width: 30%;
   height: 200px;
-  background-color: green;
+  /* background-color: green; */
+}
+
+.sub {
+  width: 300px;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto Light";
+  /* background-color: grey; */
+}
+
+.footer-subheading {
+  font-family: "Roboto Medium";
 }
