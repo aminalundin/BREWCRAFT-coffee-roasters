@@ -1,5 +1,14 @@
-body {
+html, body {
   margin: 0;
+  height: 100%; 
+  background-image: url(./images/pdoruct-image2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: Josefin Sans;
+  src: url(./fonts/JosefinSans-Medium.ttf);
 }
 
 .container {
@@ -12,7 +21,7 @@ body {
 main {
   width: 30%;
   height: 100vh;
-  background-color: aquamarine;
+  background-color: transparent; 
 }
 
 .logo {
@@ -21,8 +30,8 @@ main {
 }
 
 img {
-  width:18rem;
-  height:18rem;
+  width: 18rem;
+  height: 18rem;
 }
 
 aside {
@@ -30,16 +39,18 @@ aside {
   flex-direction: row;
   width: 70%;
   height: 100vh;
-  background-color: pink;
+  background-color: transparent; 
 }
 
 .info-text {
+  font-family: "Josefin Sans";
   width: 50%;
   height: 30%;
   border: 1px solid white;
 }
 
 .shop-button {
+  font-family: "Josefin Sans";
   width: 30%;
   border: 1px solid white;
   height: 30%;
