@@ -15,11 +15,11 @@ function Hero() {
 
                 <aside>
                     <div className="info-text">
-                        <p>At BrewCraft, we believe coffee is more than a morning ritual—it’s an art form.
+                        <p className="hero-info">At BrewCraft, we believe coffee is more than a morning ritual—it’s an art form.
                             As an independent coffee roaster, we carefully source the finest beans from around the globe,
                             celebrating the unique stories and flavors each region has to offer. </p>
 
-                        <p>Every batch is roasted with precision and passion,
+                        <p className="hero-info">Every batch is roasted with precision and passion,
                             ensuring every cup is a journey of bold taste and exceptional quality.
                             Whether you’re a seasoned coffee enthusiast or just starting your craft coffee adventure,
                             BrewCraft is here to awaken your senses, one perfect brew at a time. Welcome to the art of coffee.</p>
