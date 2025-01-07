@@ -29,8 +29,8 @@ function Hero() {
                         <p>SHOP OUR BEANS</p>
                     </div>
                 </aside>
-
             </div>
+<div className="gradient"></div>
         </>
     )
 }

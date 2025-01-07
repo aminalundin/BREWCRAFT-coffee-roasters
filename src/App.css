@@ -29,7 +29,6 @@ body {
   src: url(./fonts/Roboto_Mono/static/RobotoMono-Medium.ttf);
 }
 
-/* HERO */
 .container {
   height: 100vh;
   width: 100%;
@@ -39,6 +38,16 @@ body {
   background-image: url(./images/pdoruct-image2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative; 
+}
+
+.gradient {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%; 
+  background: linear-gradient(to top, black, transparent);
+  pointer-events: none;
 }
 
 main {
@@ -51,7 +60,7 @@ main {
   width: 400px;
 }
 
-img {
+.logo img {
   width: 18rem;
   height: 18rem;
 }
@@ -98,6 +107,7 @@ aside {
 
 
 
+
 /* SHOP */
 
 .shop-container {
@@ -105,12 +115,20 @@ aside {
   height: 100vh;
   width: 100%;
   background-color: black;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .roast-1 {
-  border: 1px solid orange;
- 
+  /* border: 1px solid orange; */
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.roast-1 img {
+  width: 12rem;
+  padding-right: 4rem;
 }
 
 .roast-header {
@@ -118,16 +136,32 @@ aside {
   font-size: 30pt;
   height: 100px;
   width: 100%;
-  border: 1px solid blue;
+  padding-left: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-end;
 }
 
+.roast-header p {
+  padding: 0;
+  margin: 0;
+}
+
+.prod-image-one {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 35%;
+  border: 1px solid pink;
+}
 .roast-info-section {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 60%;
-  height: 300px;
-  border: 1px solid pink;
+  height: 100%;
+  /* border: 1px solid pink; */
 }
 
 .add-to-cart {
@@ -139,6 +173,7 @@ aside {
   width: 220px;
   height: 200px;
   border: 1px solid white;
+  margin-left: 10px;
 }
 
 .roast-info {
@@ -149,12 +184,16 @@ aside {
   width: 500px;
   height: 200px;
   border: 1px solid white;
+  margin-right: 10px;
 }
 
 .roast-info p {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+
+
 
 /* FOOTER */
 .footer-container {
