@@ -1,10 +1,16 @@
 html, body {
   margin: 0;
   height: 100%; 
-  background-image: url(./images/pdoruct-image2.jpg);
+  /* background-image: url(./images/pdoruct-image2.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
 }
 
 @font-face {
@@ -23,21 +29,24 @@ html, body {
 }
 
 .container {
-  width: 100%;
   height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: row;
+  background-color: blue;
+  background-image: url(./images/pdoruct-image2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 main {
   width: 25%;
   height: 100vh;
-  background-color: transparent; 
 }
 
 .logo {
-  /* border: 1px solid blue; */
-  height: 40%;
+  height: 400px;
+  width: 400px;
 }
 
 img {

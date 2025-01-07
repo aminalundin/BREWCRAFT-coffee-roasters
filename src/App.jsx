@@ -2,14 +2,14 @@ import { useState } from 'react'
 import './App.css'
 import logo from './images/big-logo.png'
 import Footer from './components/Footer'
+import Hero from './components/Hero'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-
-    <Footer />
+    <Hero />
       {/* <div className="container">
 
         <main>
@@ -34,6 +34,7 @@ function App() {
         </aside>
 
       </div> */}
+      <Footer />
     </>
   )
 }
