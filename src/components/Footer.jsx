@@ -30,7 +30,7 @@ function Footer() {
                 </div>
             </div>
             <div className="copyright-container">
-
+            <p className="footer-subheading">&copy; BREWCRAFT ROASTERS</p>
             </div>
         </>
     )

@@ -100,6 +100,7 @@ aside {
   padding-left: 3rem;
   padding-right: 3rem;
   overflow: hidden;
+  border-bottom: 1px solid white;
 }
 
 .get-in-touch {
@@ -137,4 +138,15 @@ aside {
 
 .footer-subheading {
   font-family: "Roboto Medium";
+}
+
+.copyright-container {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  color: white;
+  height: 100px;
+  letter-spacing: 2px;
+  background-color: black;
+  
 }
