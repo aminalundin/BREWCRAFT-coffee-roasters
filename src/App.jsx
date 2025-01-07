@@ -6,7 +6,17 @@ function App() {
 
   return (
     <>
+    <div className="container">
+
+      <main>
+
+      </main>
+
+      <aside>
+
+      </aside>
       
+      </div>
     </>
   )
 }
