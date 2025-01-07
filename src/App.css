@@ -43,13 +43,25 @@ aside {
 }
 
 .info-text {
+  display: flex;
+  align-items: center;
   font-family: "Josefin Sans";
+  color: white;
   width: 50%;
   height: 30%;
   border: 1px solid white;
 }
 
+p {
+  padding: 1rem;
+  
+}
+
 .shop-button {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Josefin Sans";
   width: 30%;
   border: 1px solid white;
