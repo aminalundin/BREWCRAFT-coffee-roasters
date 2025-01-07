@@ -26,7 +26,21 @@ img {
 }
 
 aside {
+  display: flex;
+  flex-direction: row;
   width: 70%;
   height: 100vh;
   background-color: pink;
+}
+
+.info-text {
+  width: 50%;
+  height: 30%;
+  border: 1px solid white;
+}
+
+.shop-button {
+  width: 30%;
+  border: 1px solid white;
+  height: 30%;
 }
