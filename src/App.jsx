@@ -1,13 +1,16 @@
 import { useState } from 'react'
 import './App.css'
 import logo from './images/big-logo.png'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className="container">
+
+    <Footer />
+      {/* <div className="container">
 
         <main>
           <div className="logo"><img src={logo} alt="logo-type" /></div>
@@ -30,7 +33,7 @@ function App() {
           </div>
         </aside>
 
-      </div>
+      </div> */}
     </>
   )
 }
