@@ -11,6 +11,16 @@ html, body {
   src: url(./fonts/JosefinSans-Medium.ttf);
 }
 
+@font-face {
+  font-family: "Roboto Light";
+  src: url(./fonts/Roboto_Mono/static/RobotoMono-Light.ttf);
+}
+
+@font-face {
+  font-family: "Roboto Medium";
+  src: url(./fonts/Roboto_Mono/static/RobotoMono-Medium.ttf);
+}
+
 .container {
   width: 100%;
   height: 100vh;
@@ -19,13 +29,13 @@ html, body {
 }
 
 main {
-  width: 30%;
+  width: 25%;
   height: 100vh;
   background-color: transparent; 
 }
 
 .logo {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   height: 40%;
 }
 
@@ -40,21 +50,26 @@ aside {
   width: 70%;
   height: 100vh;
   background-color: transparent; 
+  margin-top: 30px;
 }
 
 .info-text {
   display: flex;
   align-items: center;
-  font-family: "Josefin Sans";
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Roboto Light";
+  font-size: 10pt;
   color: white;
-  width: 50%;
+  width: 60%;
   height: 30%;
   border: 1px solid white;
+  margin-right: 20px;
 }
 
 p {
-  padding: 1rem;
-  
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .shop-button {
@@ -62,8 +77,9 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Josefin Sans";
-  width: 30%;
+  font-family: "Roboto Medium";
+  font-size: 22pt;
+  width: 35%;
   border: 1px solid white;
   height: 30%;
 }
