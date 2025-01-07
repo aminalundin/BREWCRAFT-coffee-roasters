@@ -38,14 +38,14 @@ body {
   background-image: url(./images/pdoruct-image2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative; 
+  position: relative;
 }
 
 .gradient {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 30%; 
+  height: 30%;
   background: linear-gradient(to top, black, transparent);
   pointer-events: none;
 }
@@ -155,6 +155,7 @@ aside {
   width: 35%;
   border: 1px solid pink;
 }
+
 .roast-info-section {
   display: flex;
   flex-direction: row;
@@ -197,19 +198,29 @@ aside {
 
 /* FOOTER */
 .footer-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* height: 400px; */
+border-top: 1px solid white;
+}
+
+.info-container {
   font-family: "Roboto Light";
   font-size: 12pt;
   width: 100%;
-  height: 400px;
+  height: 200px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   background-color: black;
   color: white;
   padding-left: 3rem;
   padding-right: 3rem;
-  overflow: hidden;
+  padding-bottom: 4rem;
   border-bottom: 1px solid white;
+  /* overflow: hidden; */
+  /* border: 1px solid pink; */
 }
 
 .get-in-touch {
@@ -247,6 +258,20 @@ aside {
 
 .footer-subheading {
   font-family: "Roboto Medium";
+}
+
+.footer-logo {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid yellow; */
+  background-color: black;
+}
+
+.footer-logo img {
+  width: 6rem;
+  height: 6rem;
 }
 
 .copyright-container {

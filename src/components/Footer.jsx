@@ -1,10 +1,15 @@
 import React from "react";
+import logo from '../images/mini-logo.png'
 
 function Footer() {
 
     return (
         <>
             <div className="footer-container">
+                <div className="footer-logo">
+                    <img src={logo} alt="" />
+                </div>
+                    <div className="info-container">
                 <div className="get-in-touch">
                     <p className="footer-subheading">GET IN TOUCH</p>
                     <p>Contact</p>
@@ -31,6 +36,7 @@ function Footer() {
             </div>
             <div className="copyright-container">
             <p className="footer-subheading">&copy; BREWCRAFT ROASTERS</p>
+            </div>
             </div>
         </>
     )
