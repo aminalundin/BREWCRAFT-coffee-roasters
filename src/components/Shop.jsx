@@ -1,11 +1,12 @@
 import React from "react";
+import productOne from 
 
 function Shop() {
 
     return (
         <>
             <div className="shop-container">
-
+                <div className="roast-1">
                 <div className="roast-header">
                     <p>SIGNATURE ROAST</p>
                 </div>
@@ -20,7 +21,7 @@ function Shop() {
                     </div>
                 </div>
 
-
+                </div>
             </div>
         </>
     )

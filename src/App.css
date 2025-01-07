@@ -1,10 +1,11 @@
-html, body {
+html,
+body {
   margin: 0;
-  height: 100%; 
+  height: 100%;
   /* background-image: url(./images/pdoruct-image2.jpg);
   background-size: cover;
   background-repeat: no-repeat; */
-  
+
 }
 
 .box {
@@ -60,7 +61,7 @@ aside {
   flex-direction: row;
   width: 70%;
   height: 100vh;
-  background-color: transparent; 
+  background-color: transparent;
   margin-top: 30px;
 }
 
@@ -104,6 +105,12 @@ aside {
   height: 100vh;
   width: 100%;
   background-color: black;
+  border: 1px solid red;
+}
+
+.roast-1 {
+  border: 1px solid orange;
+ 
 }
 
 .roast-header {
@@ -115,24 +122,39 @@ aside {
 }
 
 .roast-info-section {
-width: 60%;
-height: 300px;
-border: 1px solid pink;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  height: 300px;
+  border: 1px solid pink;
 }
 
 .add-to-cart {
-width: 100px;
-height: 200px;
-border: 1px solid yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Medium";
+  font-size: 18pt;
+  width: 220px;
+  height: 200px;
+  border: 1px solid white;
 }
 
 .roast-info {
-  width: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: "Roboto Light";
+  width: 500px;
   height: 200px;
-  border: 1px solid green;
+  border: 1px solid white;
 }
 
-
+.roast-info p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
 /* FOOTER */
 .footer-container {
@@ -196,5 +218,5 @@ border: 1px solid yellow;
   height: 100px;
   letter-spacing: 2px;
   background-color: black;
-  
+
 }
