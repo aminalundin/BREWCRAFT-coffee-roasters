@@ -19,10 +19,10 @@ function Hero() {
                             As an independent coffee roaster, we carefully source the finest beans from around the globe,
                             celebrating the unique stories and flavors each region has to offer. </p>
 
-                        <p className="hero-info">Every batch is roasted with precision and passion,
+                        {/* <p className="hero-info">Every batch is roasted with precision and passion,
                             ensuring every cup is a journey of bold taste and exceptional quality.
                             Whether you’re a seasoned coffee enthusiast or just starting your craft coffee adventure,
-                            BrewCraft is here to awaken your senses, one perfect brew at a time. Welcome to the art of coffee.</p>
+                            BrewCraft is here to awaken your senses, one perfect brew at a time. Welcome to the art of coffee.</p> */}
                     </div>
 
                     <div className="shop-button">
