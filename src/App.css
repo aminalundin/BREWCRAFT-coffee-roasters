@@ -30,10 +30,14 @@ body {
 }
 
 .header {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: right;
   font-family: "Roboto Medium";
   font-size: 16pt;
   color: white;
-  height: 40px;
+  height: 70px;
   background-color: blue;
 }
 

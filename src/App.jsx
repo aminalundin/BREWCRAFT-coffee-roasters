@@ -7,18 +7,23 @@ import ProdOne from './components/ProdOne'
 import ProdTwo from './components/ProdTwo'
 import ProdThree from './components/ProdThree'
 import Header from './components/Header'
+import Shop from './components/Shop'
+import About from './components/About'
 
 function App() {
-  const [isShopOpen, setIsShopOpen] = useState(false)
+  const [activeSection, setActiveSection] = useState("home");
 
   return (
     <>
-      <Header setIsShopOpen={setIsShopOpen}/>
-      <Hero />
-      {/* <ProdOne />
-      <ProdTwo />
-      <ProdThree /> */}
+     
+     <Header setActiveSection={setActiveSection} />
+
+      {activeSection === "home" && <Hero />}
+      {activeSection === "shop" && <Shop />}
+      {activeSection === "about" && <About />}
+
       <Footer />
+    
     </>
   )
 }
