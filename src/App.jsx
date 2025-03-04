@@ -6,16 +6,18 @@ import Hero from './components/Hero'
 import ProdOne from './components/ProdOne'
 import ProdTwo from './components/ProdTwo'
 import ProdThree from './components/ProdThree'
+import Header from './components/Header'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [isShopOpen, setIsShopOpen] = useState(false)
 
   return (
     <>
+      <Header setIsShopOpen={setIsShopOpen}/>
       <Hero />
-      <ProdOne />
+      {/* <ProdOne />
       <ProdTwo />
-      <ProdThree />
+      <ProdThree /> */}
       <Footer />
     </>
   )
