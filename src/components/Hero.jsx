@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../images/big-logo.png'
+import logo from '../images/big-logo2.png'
 
 
 function Hero() {
@@ -9,15 +9,16 @@ function Hero() {
             {/* <div className="container"></div> */}
             <div className="container">
 
-                <main>
-                    <div className="logo"><img src={logo} alt="logo-type" /></div>
-                </main>
+                
 
                 <aside>
                     <div className="info-text">
-                        <p className="hero-info">At BrewCraft, we believe coffee is more than a morning ritual—it’s an art form.
-                            As an independent coffee roaster, we carefully source the finest beans from around the globe,
-                            celebrating the unique stories and flavors each region has to offer. </p>
+                        <p className="hero-info">Lorem ipsum dolor sit amet consectetur. Arcu neque pulvinar cursus ultricies sapien sed.
+                            Imperdiet velit faucibus tristique fringilla commodo amet.
+                            Commodo sagittis ut non ultrices nisl aliquam aliquam neque. At mi orci augue mollis placerat.
+                            Tincidunt nisl sit tempus quisque sit. Curabitur interdum nisl integer suspendisse eu arcu libero.
+                            Sapien nibh porttitor suspendisse ultrices posuere. Feugiat fermentum nec egestas pretium viverra blandit.
+                            Ultrices ullamcorper a leo euismod lorem egestas. </p>
 
                         {/* <p className="hero-info">Every batch is roasted with precision and passion,
                             ensuring every cup is a journey of bold taste and exceptional quality.
@@ -26,11 +27,16 @@ function Hero() {
                     </div>
 
                     <div className="shop-button">
-                        <p>SHOP OUR BEANS</p>
+                        <p>QUALITY</p>
+                        <p>GUARANTEED</p>
                     </div>
                 </aside>
+
+                <main>
+                    <div className="logo"><img src={logo} alt="logo-type" /></div>
+                </main>
+            <div className="gradient"></div>
             </div>
-<div className="gradient"></div>
         </>
     )
 }
