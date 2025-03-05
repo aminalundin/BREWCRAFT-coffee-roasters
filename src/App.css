@@ -155,131 +155,45 @@ aside {
   margin: 0;
 }
 
+/* SHOP */
 
-
-
-/* ROAST 1 */
-
-.roast-1 {
-  width: 100%;
-  height: 500px;
-  display: flex;
-  flex-direction: row;
-  background-image: url('./images/roast-1-bg.png');
-  background-size: cover;
-}
-
-
-.roast-header {
-  /* font-family: "Roboto Medium"; */
-  width: 70%;
-}
-
-
-
-
-.prod-image-one {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-}
-
-.prod-image-one img {
-  width: 300px;
-}
-
-.roast-info-section {
+.shop {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  width: 50%;
-  height: 100%;
 }
 
-
-.roast-info {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  font-family: "Roboto Light";
-  padding: 0;
-  margin: 0;
+.shop img {
+  width: 250px;
+  height: 250px;
 }
-
-
-
-/* ROAST 2 & 3 */
-
-.roast-2-3 {
+.shop-image {
   width: 100%;
   height: 600px;
+  background-image: url(./images/product-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.shop-container {
   display: flex;
   flex-direction: row;
-  background-color: black;
-  color: white;
 }
 
-.prod-2-container {
-  margin: 2rem;
+.column-one {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
-
 }
 
-.roast-2 {
-  width: 50%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  border: 1px solid white;
-}
-
-.roast-2 img {
-  width: 200px;
-}
-
-.roast-2-info-section {
-  width: 60%;
-}
-
-.roast-2-info {
-  font-family: "Roboto Light";
-  text-align: justify;
-
-}
-
-.prod-3-container {
-  margin: 2rem;
+.column-two {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
-
 }
 
-.roast-3 {
-  width: 50%;
+.column-three {
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-
-  border-top: 1px solid white;
-  border-right: 1px solid white;
-  border-bottom: 1px solid white;
+  flex-direction: column;
 }
 
-
-.roast-3 img {
-  width: 200px;
-}
-
-.roast-3-info-section {
-  width: 60%;
-}
 
 
 
