@@ -171,6 +171,7 @@ aside {
   height: 600px;
   background-image: url(./images/product-image.jpg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -258,8 +259,65 @@ aside {
   color: #231714;
 }
 
+.insta-reel {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+}
 
+.img-1 {
+  width: 200px;
+  height: 200px;
+  background-image: url(./images/leaves.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.img-2 {
+  width: 200px;
+  height: 200px;
+  background-image: url(./images/ground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-3 {
+  width: 200px;
+  height: 200px;
+  background-image: url(./images/pour.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-4 {
+  width: 200px;
+  height: 200px;
+  background-image: url(./images/sacks.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-5 {
+  width: 200px;
+  height: 200px;
+  background-image: url(./images/cafe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-6 {
+  width: 200px;
+  height: 200px;
+  background-image: url(./images/handles.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-7 {
+  width: 200px;
+  height: 200px;
+  background-image: url(./images/fairtr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 
 

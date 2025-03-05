@@ -6,8 +6,11 @@ function Shop() {
     return (
         <>
             <div className="shop">
+
                 <div className="shop-image"></div>
+
                 <div className="shop-container">
+
                     <div className="column-one">
                         <div className="signature">
                             <h1 className="shop-subhead">SIGNATURE ROAST......$14</h1>
@@ -24,6 +27,7 @@ function Shop() {
                             <button className="atc">add to cart</button>
                         </div>
                     </div>
+
                     <div className="column-two">
                         <div className="cups">
                             <div className="reusable-cups"><img src={cups} alt="reusable-cups" /></div>
@@ -37,6 +41,7 @@ function Shop() {
                             </div>
                         </div>
                     </div>
+
                     <div className="column-three">
                         <div className="fairtrade">
                             <h1 className="shop-subhead">FAIRTRADE ROAST......$16</h1>
@@ -56,6 +61,15 @@ function Shop() {
 
                     </div>
                 </div>
+                        <div className="insta-reel">
+                            <div className="img-1"></div>
+                            <div className="img-2"></div>
+                            <div className="img-3"></div>
+                            <div className="img-4"></div>
+                            <div className="img-5"></div>
+                            <div className="img-6"></div>
+                            <div className="img-7"></div>
+                        </div>
             </div>
         </>
     )
