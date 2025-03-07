@@ -1,8 +1,36 @@
-# React + Vite
+# Brewcraft coffee roasters website 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Brewcraft is a front-end-focused coffee brand website built using React. The project was designed in Figma and developed from scratch.
 
-Currently, two official plugins are available:
+## Installation and running the project:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clone this repository:
+https://github.com/aminalundin/brewcraft-roasters.git
+
+Navigate to the project directory:
+cd brewcraft
+
+Install dependencies:
+npm install
+
+Start the development server:
+npm run dev
+
+## Branding and design by me: 
+
+Website layout designed in Figma and coded in React.
+
+Brewcraft name, identity, and concept.
+
+Coffee pouch and cup mock-ups sourced & edited to fit the brand aesthetic.
+
+Coffee labels and stamp designed in Figma & Photoshop.
+
+Product image composited in Photoshop for the shop page.
+
+Logo design via Canva.
+
+## Built with: 
+
+Frontend: React, JacaScript, CSS, HTML.
+Design tools: Figma, Photoshop, Canva.
