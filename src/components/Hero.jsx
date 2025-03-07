@@ -9,13 +9,13 @@ function Hero() {
             {/* <div className="container"></div> */}
             <div className="container">
 
-                
+
 
                 <aside>
                     <div className="info-text">
                         <p className="hero-info">Lorem ipsum dolor sit amet consectetur. Arcu neque pulvinar cursus ultricies sapien sed.
-                            Imperdiet velit faucibus tristique fringilla commodo amet.
-                            Commodo sagittis ut non ultrices nisl aliquam aliquam neque. At mi orci augue mollis placerat.
+                            Imperdiet velit faucibus tristique fringilla commodo amet. </p>
+                        <p className="hero-info"> Commodo sagittis ut non ultrices nisl aliquam aliquam neque. At mi orci augue mollis placerat.
                             Tincidunt nisl sit tempus quisque sit.  </p>
                     </div>
 
@@ -28,7 +28,7 @@ function Hero() {
                 <main>
                     <div className="logo"><img src={logo} alt="logo-type" /></div>
                 </main>
-            <div className="gradient"></div>
+                <div className="gradient"></div>
             </div>
         </>
     )

@@ -173,7 +173,7 @@ aside {
 
 .shop-image {
   width: 100%;
-  height: 600px;
+  height: 500px;
   background-image: url(./images/product-image.jpg);
   background-size: cover;
   background-position: center;
@@ -345,6 +345,7 @@ aside {
   background-image: url(./images/cafe.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   /* border: 1px solid pink; */
   padding-top: 3rem;
