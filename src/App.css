@@ -338,6 +338,67 @@ aside {
 
 
 
+/* ABOUT PAGE */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  background-image: url(./images/cafe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  /* border: 1px solid pink; */
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.logo-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.logo-container img {
+  width: 400px;
+}
+
+.about-info-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #D1B5A9;
+  /* border: 1px solid blue; */
+  }
+
+.about-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 2rem;
+  border: 1px solid white;
+  height: 130px;
+  width: 300px;
+  font-family: "Roboto Medium";
+  background-color: rgba(255, 255, 255, 0.011);
+  backdrop-filter: blur(2px);
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.011);
+  backdrop-filter: blur(5px);
+  padding-left: 1rem;
+  border: 1px solid white;
+  height: 500px;
+  width: 500px;
+  padding: 2rem;
+  font-family: "Roboto Light";
+  text-align: justify;
+}
+
 /* FOOTER */
 .footer-container {
   display: flex;
