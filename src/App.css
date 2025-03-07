@@ -1,18 +1,21 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
 html,
 body {
   margin: 0;
-  height: 100%;
-  /* background-image: url(./images/pdoruct-image2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; */
-
+  padding: 0;
+  width: 100%;
 }
 
-.box {
+
+/* .box {
   width: 50px;
   height: 50px;
   background-color: blue;
-}
+} */
 
 @font-face {
   font-family: Josefin Sans;
@@ -72,14 +75,13 @@ body {
 /* HERO */
 
 .container {
-  height: 100vh;
+  height: 700px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 3rem;
-  background-color: blue;
   background-image: url(./images/bg-two.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -96,28 +98,32 @@ body {
 }
 
 .logo {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
 }
 
-.logo img {
-  width: 18rem;
-  height: 18rem;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 aside {
   display: flex;
   flex-direction: row;
   width: 80%;
+  /* height: 200px; */
   background-color: transparent;
   margin-top: 30px;
   color: #D1B5A9;
+
 }
 
 .info-text {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 150px;
   flex-direction: column;
   font-family: "Roboto Light";
   font-size: 10pt;
@@ -160,12 +166,11 @@ aside {
 .shop {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  background-color: #E2BDB4;
 }
 
-.shop img {
-  width: 300px;
-  height: 300px;
-}
+
 .shop-image {
   width: 100%;
   height: 600px;
@@ -179,9 +184,9 @@ aside {
   display: flex;
   flex-direction: row;
   background-color: #E2BDB4;
-  padding-top: 4rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 3rem;
+  gap: 2rem;
+  margin: 2rem;
 }
 
 .shop-container h1 {
@@ -197,28 +202,36 @@ aside {
 .column-one {
   display: flex;
   flex-direction: column;
-  padding: 3rem;
-  gap: 3rem;
+  gap: 5rem;
+
 }
 
 .column-two {
   display: flex;
   flex-direction: column;
-  width: 300px;
   background-color: #231714;
   color: #E2BDB4;
-  padding-bottom: 2rem;
+}
+
+.reusable-cups {
+  width: 100%;
+}
+
+.column-two img {
+  width: 300px;
+  height: 300px;
 }
 
 .cups-info {
   padding: 1rem;
+  padding-top: 3rem;
 }
 
 .column-three {
   display: flex;
   flex-direction: column;
-  padding: 3rem;
-  gap: 3rem;
+  /* width: 400px; */
+  gap: 5rem;
 }
 
 .shop-subhead {
@@ -261,8 +274,10 @@ aside {
 
 .insta-reel {
   display: flex;
+  width: 100%;
   flex-direction: row;
   height: 200px;
+  overflow: scroll;
 }
 
 .img-1 {
@@ -296,6 +311,7 @@ aside {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .img-5 {
   width: 200px;
   height: 200px;
@@ -311,6 +327,7 @@ aside {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .img-7 {
   width: 200px;
   height: 200px;
@@ -327,50 +344,43 @@ aside {
   flex-direction: column;
   width: 100%;
   background-color: #231714;
-  /* height: 400px; */
-  /* border-top: 0.5px solid white; */
 }
 
 .info-container {
   font-family: "Roboto Light";
   font-size: 12pt;
   width: 100%;
-  height: 200px;
+  height: 300px;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: center;
   background-color: #231714;
   color: #D1B5A9;
   padding-left: 3rem;
   padding-right: 3rem;
   padding-bottom: 4rem;
   border-bottom: 0.5px solid white;
-  /* overflow: hidden; */
-  /* border: 1px solid pink; */
 }
 
 .get-in-touch {
   width: 20%;
   height: 200px;
-  /* background-color: blue; */
 }
 
 .socials {
   width: 20%;
   height: 200px;
-  /* background-color: yellow; */
 }
 
 .resources {
   width: 20%;
   height: 200px;
-  /* background-color: pink; */
 }
 
 .subscribe {
   width: 30%;
   height: 200px;
-  /* background-color: green; */
 }
 
 .sub {
@@ -379,7 +389,6 @@ aside {
   border: none;
   border-radius: 5px;
   font-family: "Roboto Light";
-  /* background-color: grey; */
 }
 
 .footer-subheading {
@@ -391,45 +400,22 @@ aside {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid yellow; */
   background-color: #231714;
+
 }
 
 .footer-logo img {
-  width: 6rem;
-  height: 6rem;
+  width: 70px;
 }
 
 .copyright-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding-left: 1rem;
   color: #D1B5A9;
   height: 100px;
   letter-spacing: 2px;
   background-color: #231714;
 
-}
-
-
-
-
-/* ROAST FOUR */
-
-.roast-4 {
-  width: 100%;
-  height: 500px;
-  display: flex;
-  flex-direction: row;
-  background-image: url('./images/fair-bg.jpg');
-  background-size: cover;
-}
-
-.roast-4-info-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  width: 50%;
-  height: 100%;
 }
