@@ -6,10 +6,7 @@ function Hero() {
 
     return (
         <>
-            {/* <div className="container"></div> */}
             <div className="container">
-
-
 
                 <aside>
                     <div className="info-text">
@@ -28,7 +25,9 @@ function Hero() {
                 <main>
                     <div className="logo"><img src={logo} alt="logo-type" /></div>
                 </main>
+
                 <div className="gradient"></div>
+
             </div>
         </>
     )

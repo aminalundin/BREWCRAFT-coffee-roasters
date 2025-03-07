@@ -12,15 +12,15 @@ function App() {
 
   return (
     <>
-     
-     <Header setActiveSection={setActiveSection} />
+
+      <Header setActiveSection={setActiveSection} />
 
       {activeSection === "home" && <Hero />}
       {activeSection === "shop" && <Shop />}
       {activeSection === "about" && <About />}
 
       <Footer />
-    
+
     </>
   )
 }
