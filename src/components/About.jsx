@@ -14,7 +14,7 @@ function About() {
                 <div className="about-info-container">
 
                     <div className="about-box">
-                        <h1>ABOUT US</h1>
+                        <h1>ABOUT BREWCRAFT</h1>
                     </div>
 
                     <div className="info-box">

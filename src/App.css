@@ -416,7 +416,9 @@ aside {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  color: #D1B5A9;
+  
+  
+
 }
 
 .about-box {
@@ -424,21 +426,20 @@ aside {
   align-items: center;
   justify-content: flex-start;
   padding-left: 2rem;
-  border: 1px solid white;
   height: 130px;
   width: 300px;
   font-family: "Roboto Medium";
-  background-color: rgba(255, 255, 255, 0.011);
-  backdrop-filter: blur(2px);
+background-color: #D1B5A9;
+color: #231714;  
+backdrop-filter: blur(2px);
 }
 
 .info-box {
   display: flex;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.011);
-  backdrop-filter: blur(5px);
+  background-color: #D1B5A9;
+color: #231714; 
   padding-left: 1rem;
-  border: 1px solid white;
   height: 500px;
   width: 500px;
   padding: 2rem;
