@@ -15,22 +15,22 @@ function Footer() {
 
                     <div className="get-in-touch">
                         <p className="footer-subheading">GET IN TOUCH</p>
-                        <p>Contact</p>
-                        <p>Careers</p>
+                        <a href="#">Contact</a>
+                        <a href="#">Careers</a>
                     </div>
 
                     <div className="socials">
                         <p className="footer-subheading">SOCIALS</p>
-                        <p>Instagram</p>
-                        <p>Facebook</p>
-                        <p>X</p>
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">X</a>
                     </div>
 
                     <div className="resources">
                         <p className="footer-subheading">RESOURCES</p>
-                        <p>Delivery / Shipping</p>
-                        <p>Refund Policy</p>
-                        <p>Privacy Policy</p>
+                        <a href="#">Delivery / Shipping</a>
+                        <a href="#">Refund Policy</a>
+                        <a href="#">Privacy Policy</a>
                     </div>
 
                     <div className="subscribe">

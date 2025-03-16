@@ -8,23 +8,11 @@ function Hero() {
         <>
             <div className="container">
 
-                <aside>
-                    <div className="info-text">
-                        <p className="hero-info">Lorem ipsum dolor sit amet consectetur. Arcu neque pulvinar cursus ultricies sapien sed.
-                            Imperdiet velit faucibus tristique fringilla commodo amet. </p>
-                        <p className="hero-info"> Commodo sagittis ut non ultrices nisl aliquam aliquam neque. At mi orci augue mollis placerat.
-                            Tincidunt nisl sit tempus quisque sit.  </p>
-                    </div>
-
-                    <div className="shop-button">
-                        <p>QUALITY</p>
-                        <p>GUARANTEED</p>
-                    </div>
-                </aside>
-
+                
                 <main>
                     <div className="logo"><img src={logo} alt="logo-type" /></div>
                 </main>
+
 
                 <div className="gradient"></div>
 

@@ -41,6 +41,21 @@ body {
   padding-right: 4rem;
   align-items: center;
 }
+.header p {
+  animation: slideHeader 1s ease-out forwards;
+}
+
+@keyframes slideHeader {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 
 .header img {
   width: 40px;
@@ -52,6 +67,7 @@ body {
   color: white;
   font-family: "Roboto Light";
   text-align: justify;
+  
 }
 
 .add-to-cart {
@@ -76,7 +92,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 3rem;
   background-image: url(./images/bg-two.jpg);
   background-size: cover;
@@ -94,8 +110,8 @@ body {
 }
 
 .logo {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
 }
 
 main {
@@ -107,6 +123,7 @@ main {
 aside {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 80%;
   background-color: transparent;
   margin-top: 30px;
@@ -117,16 +134,16 @@ aside {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 150px;
   flex-direction: column;
   font-family: "Roboto Light";
   font-size: 10pt;
   color: #D1B5A9;
-  width: 60%;
-  background-color: rgba(255, 255, 255, 0.011);
-  backdrop-filter: blur(2px);
-  border: 1px solid white;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 0.5px solid white;
   margin-right: 20px;
+  padding: 1rem;
 }
 
 .hero-info {
@@ -143,10 +160,10 @@ aside {
   justify-content: center;
   font-family: "Roboto Medium";
   font-size: 22pt;
-  width: 39%;
-  border: 1px solid white;
-  background-color: rgba(255, 255, 255, 0.011);
-  backdrop-filter: blur(2px);
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 0.5px solid white;
   padding-left: 1rem;
 }
 
@@ -168,7 +185,7 @@ aside {
 
 .shop-image {
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-image: url(./images/product-image.jpg);
   background-size: cover;
   background-position: center;
@@ -198,6 +215,19 @@ aside {
   display: flex;
   flex-direction: column;
   gap: 5rem;
+  animation: slideInLeft 1s ease-out forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .column-two {
@@ -205,6 +235,20 @@ aside {
   flex-direction: column;
   background-color: #231714;
   color: #E2BDB4;
+  width: 300px;
+  animation: slideInUp 1s ease-out forwards;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .reusable-cups {
@@ -225,6 +269,19 @@ aside {
   display: flex;
   flex-direction: column;
   gap: 5rem;
+  animation: slideInRight 1s ease-out forwards;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .shop-subhead {
@@ -399,6 +456,16 @@ aside {
   background-color: #231714;
 }
 
+.footer-container a {
+  color: #D1B5A9;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+a:hover {
+  color: white;
+}
+
 .info-container {
   font-family: "Roboto Light";
   font-size: 12pt;
@@ -417,16 +484,22 @@ aside {
 }
 
 .get-in-touch {
+  display: flex;
+  flex-direction: column;
   width: 20%;
   height: 200px;
 }
 
 .socials {
+  display: flex;
+  flex-direction: column;
   width: 20%;
   height: 200px;
 }
 
 .resources {
+  display: flex;
+  flex-direction: column;
   width: 20%;
   height: 200px;
 }
