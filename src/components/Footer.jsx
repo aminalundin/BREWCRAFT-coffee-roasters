@@ -36,13 +36,13 @@ function Footer() {
                     <div className="subscribe">
                         <p className="footer-subheading">SUBSCRIBE</p>
                         <input type="text" className="sub" placeholder="Email address" />
-                        <p>Sign up to get exclusive pre-release access to new product
+                        <p className="sub-text">Sign up to get exclusive pre-release access to new product
                             launches and Limited Edition coffees.</p>
                     </div>
                 </div>
 
                 <div className="copyright-container">
-                    <p className="footer-subheading">&copy; BREWCRAFT ROASTERS</p>
+                    <p className="copy-subheading">&copy; BREWCRAFT ROASTERS</p>
                 </div>
 
             </div>
