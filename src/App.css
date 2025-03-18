@@ -518,6 +518,42 @@ body {
 
   @keyframes slideInLeft {
     from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  body {
+    background-color: #231714;
+  }
+
+
+  /* HEADER -------------------------------------------------------------------- */
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    font-family: "Roboto Light";
+    font-size: 16pt;
+    color: white;
+    height: 70px;
+    background-color: #231714;
+    align-items: center;
+  }
+
+  .header p {
+    animation: slideDown 1s ease-out forwards;
+  }
+
+  @keyframes slideDown {
+    from {
       transform: translateY(-100%);
       opacity: 0;
     }
@@ -528,14 +564,11 @@ body {
     }
   }
 
-  body {
-    background-color: #231714;
-  }
 
-  .header {
-    display: none;
+  .header img {
+    width: 40px;
+    height: 40px;
   }
-
 
 
   /* HERO PAGE ------------------------------------------------------------------------------------ */
@@ -589,8 +622,6 @@ body {
     flex-direction: column;
     width: 100vh;
     background-color: #231714;
-    animation: slideInLeft 1s ease-out forwards;
-
   }
 
   .footer-container a {
