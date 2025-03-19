@@ -9,7 +9,7 @@ function Hero() {
         <>
             <div className="container">
 
-                <video autoPlay muted loop id="background-video">
+                <video autoPlay playsInline muted loop id="background-video">
                     <source src={video} type="video/mp4"/>
                 </video>
                 
