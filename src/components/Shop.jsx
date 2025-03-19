@@ -14,7 +14,7 @@ function Shop() {
                     <div className="column-one">
 
                         <div className="signature">
-                            <h1 className="shop-subhead">SIGNATURE ROAST.............$14</h1>
+                            <h1 className="shop-subhead">SIGNATURE ROAST $14</h1>
                             <p className="shop-text">Lorem ipsum dolor sit amet consectetur. Quam a vulputate et in.
                                 Viverra tortor lectus lacus aliquet at aliquet. Senectus turpis fames sed lectus eleifend nisl quam.
                                 Lectus tincidunt massa nunc viverra eget eleifend dignissim.</p>
@@ -22,7 +22,7 @@ function Shop() {
                         </div>
 
                         <div className="royal">
-                            <h1 className="shop-subhead">ROYAL ROAST.............$14</h1>
+                            <h1 className="shop-subhead">ROYAL ROAST $14</h1>
                             <p className="shop-text">Lorem ipsum dolor sit amet consectetur. Quam a vulputate et in.
                                 Viverra tortor lectus lacus aliquet at aliquet. Senectus turpis fames sed lectus eleifend nisl quam.
                                 Lectus tincidunt massa nunc viverra eget eleifend dignissim.</p>
@@ -53,7 +53,7 @@ function Shop() {
                     <div className="column-three">
 
                         <div className="fairtrade">
-                            <h1 className="shop-subhead">FAIRTRADE ROAST.............$16</h1>
+                            <h1 className="shop-subhead">FAIRTRADE ROAST $16</h1>
                             <p className="shop-text">Lorem ipsum dolor sit amet consectetur. Quam a vulputate et in.
                                 Viverra tortor lectus lacus aliquet at aliquet. Senectus turpis fames sed lectus eleifend nisl quam.
                                 Lectus tincidunt massa nunc viverra eget eleifend dignissim.</p>
@@ -61,7 +61,7 @@ function Shop() {
                         </div>
 
                         <div className="salt">
-                            <h1 className="shop-subhead">ROCK SALT ROAST.............$14</h1>
+                            <h1 className="shop-subhead">ROCK SALT ROAST $14</h1>
                             <p className="shop-text">Lorem ipsum dolor sit amet consectetur. Quam a vulputate et in.
                                 Viverra tortor lectus lacus aliquet at aliquet. Senectus turpis fames sed lectus eleifend nisl quam.
                                 Lectus tincidunt massa nunc viverra eget eleifend dignissim.</p>
