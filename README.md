@@ -1,6 +1,6 @@
 # Brewcraft coffee roasters website 
 
-Brewcraft is a front-end-focused coffee brand website built using React designed for desktop. The project was designed in Figma and developed from scratch.
+Brewcraft is a front-end-focused coffee brand website built using React designed for desktop and mobile viewing. The project was designed in Figma and developed from scratch.
 
 ## Installation and running the project:
 
